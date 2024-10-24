@@ -3,6 +3,7 @@ body {
        background: black;
        margin: 0px;
        font-family: "IBM Plex Sans", sans-serif;
+       margin-bottom: 70px;
    }
    
    header {
@@ -11,8 +12,8 @@ body {
        font-size: 32px;
        color: rgb(42, 122, 228);
    }
-   section{
-       background: #F6A723;
+   .chamada{
+       background: #de962a;
        padding-bottom: 80px;
        padding-top: 80px;
        display: flex;
@@ -27,4 +28,25 @@ body {
    }
    p {
     font-size: 25px;
+   }
+    .categoria-videos {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+        background-color: black;
+   }
+   .sec-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+   }
+   .categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid whitesmoke;
+   }
+   .sec-2 h2{
+    color: rgb(42, 122, 228);
    }
